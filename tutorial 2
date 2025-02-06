@@ -1,0 +1,137 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyMCa53P5u/qaXnvcslyzSEj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/DawudAli123/file-1-2/blob/main/tutorial%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 17,
+      "metadata": {
+        "id": "uqCWJxb2D6d5",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "c502f5c6-8aa5-45a2-9108-fbbfb7afb17b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your namedave kalp\n",
+            "the name you have entered is: dave kalp\n",
+            "enter the raius:15\n",
+            "the area of the circle is 706.8375000000001\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = int(2.2)\n",
+        "\n",
+        "name = input(\"enter your name\")\n",
+        "print(f\"the name you have entered is: {name}\")\n",
+        "\n",
+        "radius = float(input(\"enter the raius:\"))\n",
+        "acc = (radius**2)*3.1415\n",
+        "print(f\"the area of the circle is {acc}\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "score = int(input(\"enter your grade\"))\n",
+        "\n",
+        "if 90 <= score <= 100:\n",
+        "  print(\"your grade is A\")\n",
+        "elif 80 <= score <= 89:\n",
+        "  print(\"your grade is B\")\n",
+        "elif 70 <= score <= 79:\n",
+        "  print(\"your grade is C\")\n",
+        "elif 60 <= score <= 69:\n",
+        "  print(\"your grade is D\")\n",
+        "elif 0 <= score <= 59:\n",
+        "  print(\"your grade is F\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dRGL9CpoN_U0",
+        "outputId": "4012d55e-4d82-4c37-e5c0-bf5d96e5e854"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your grade67\n",
+            "your grade is D\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = int (input(\"enter your age\"))\n",
+        "\n",
+        "if age <12:\n",
+        "    price = 5\n",
+        "elif age >= 65:\n",
+        "    price = 7\n",
+        "else:\n",
+        "  student_id = input(\"do you have a student ID? (YES/NO): \").strip().lower()\n",
+        "\n",
+        "  if student_id == \"yes\":\n",
+        "      price = 8\n",
+        "  else:\n",
+        "      price = 10\n",
+        "\n",
+        "print(f\"ticket price: £{price}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "m60nyehcRnE2",
+        "outputId": "39e32358-5b21-4320-d310-a43910ee7be8"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your age4\n",
+            "ticket price: £5\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
